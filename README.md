@@ -25,7 +25,7 @@
 
 ## Oceanic initial condition
 
-## Physical simulation and data post-processing
+## Modify the source code and build executable
 
 ## Biogeochemistry
 
