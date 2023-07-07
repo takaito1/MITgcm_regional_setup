@@ -25,7 +25,7 @@
   - Similar to the atmospheric forcing, there are several oceanic reanalysis products. In this example, I will use SODA version 3.12.2 [Carton et al., 2018](https://www2.atmos.umd.edu/~ocean/)
   - The files I used in this example are available [here]()
   - It contains U, V, T, S and SSH
-  - An example for North Pacific domain is:
+  - An example for North Pacific domain is: [create_ocean_bc.ipynb](https://github.com/takaito1/MITgcm_regional_setup/blob/main/create_ocean_bc.ipynb)
   - The result is in a set of binary files (.bin)
     
 ## Oceanic initial condition
