@@ -22,7 +22,12 @@
   - The result is in a set of binary files (.bin)
 
 ## Oceanic side boundary condition
-
+  - Similar to the atmospheric forcing, there are several oceanic reanalysis products. In this example, I will use SODA version 3.12.2 [Carton et al., 2018](https://www2.atmos.umd.edu/~ocean/)
+  - The files I used in this example are available [here]()
+  - It contains U, V, T, S and SSH
+  - An example for North Pacific domain is:
+  - The result is in a set of binary files (.bin)
+    
 ## Oceanic initial condition
 
 ## Modify the source code and build executable
