@@ -7,7 +7,8 @@
   - Have access to python3 with the following packages, numpy, matplotlib, scipy, pandas, netCDF4, xarray, xmitgcm 
 
 ## Bathymetry
-  - Download etopo2.nc from here, https://o2.eas.gatech.edu/data/etopo2.nc
+  - Download etopo2.nc (Smith and Sandwell, 1997) from here, https://o2.eas.gatech.edu/data/etopo2.nc
+  - Original data is documented here, https://sos.noaa.gov/catalog/datasets/etopo2-topography-and-bathymetry-natural-colors/#description-data-source
   - 
 ## Atmospheric forcing for bulk formula
 
