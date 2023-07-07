@@ -10,7 +10,8 @@
   - Download etopo2.nc (Smith and Sandwell, 1997) from [here](https://o2.eas.gatech.edu/data/etopo2.nc)
   - Original data is documented [here](https://sos.noaa.gov/catalog/datasets/etopo2-topography-and-bathymetry-natural-colors/#description-data-source)
   - An example for North Pacific domain for lon-lat grid at 2 degree resolution: [create_bathymetry.ipynb](https://github.com/takaito1/MITgcm_regional_setup/blob/main/create_bathymetry.ipynb)
-  - This example, the domain is (lon,lat,depth) = (60,40,42), small enough to run on a single CPU on desktop/laptop
+  - The result is in a binary file (.bin)
+  - In this example, the domain is (lon,lat,depth) = (60,40,42), small enough to run on a single CPU on desktop/laptop
     
 ## Atmospheric forcing for bulk formula
   - Several atmospheric reanalysis products are available. In this example, I will use JRA55do [(Tsujino et al., 2018)](https://climate.mri-jma.go.jp/pub/ocean/JRA55-do/)
@@ -18,6 +19,7 @@
   - The files I used in this example are available [here](https://gtvault-my.sharepoint.com/:u:/g/personal/takamitsu3_gatech_edu/EZvBdaNaDOFGghnRzzS5WroBzTPc8vGf4-YHLHsbhgjMQw?e=JgZxS9). These files are available from ESGF following the link above
   - It contains 10m wind (u, v), 2m air temperature, specific humidity, downward short/long wave radiation, rain precipitation, snow precipitation, river runoff, ice sheet calving, and mean sea level pressure (total of 11 fields). Most of them are 3 hourly field.
   - An example for North Pacific domain is: [create_atmos_forcing.ipynb](https://github.com/takaito1/MITgcm_regional_setup/blob/main/create_atmos_forcing.ipynb)
+  - The result is in a set of binary files (.bin)
 
 ## Oceanic side boundary condition
 
