@@ -9,7 +9,8 @@
 ## Bathymetry
   - Download etopo2.nc (Smith and Sandwell, 1997) from here, https://o2.eas.gatech.edu/data/etopo2.nc
   - Original data is documented here, https://sos.noaa.gov/catalog/datasets/etopo2-topography-and-bathymetry-natural-colors/#description-data-source
-  - 
+  - create_bathymetry.ipynb
+    
 ## Atmospheric forcing for bulk formula
 
 ## Oceanic side boundary condition
