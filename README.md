@@ -7,7 +7,8 @@
   - Have access to python3 with the following packages, numpy, matplotlib, scipy, pandas, netCDF4, xarray, xmitgcm 
 
 ## Bathymetry
-
+  - Download etopo2.nc from here, https://o2.eas.gatech.edu/data/etopo2.nc
+  - 
 ## Atmospheric forcing for bulk formula
 
 ## Oceanic side boundary condition
