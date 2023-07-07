@@ -3,7 +3,7 @@
 ## Before you start
   - Download MITgcm source code from the github repo at https://mitgcm.org
   - Read the documentation, especially chapter 3
-  - Compile and execute the global ocean circulation example in the verification folder
+  - Compile and execute the global ocean circulation example in the verification folder, "global_ocean.90x40x15"
   - Have access to python3 with the following packages, numpy, matplotlib, scipy, pandas, netCDF4, xarray, xmitgcm 
 
 ## Bathymetry
