@@ -34,8 +34,10 @@
     
 ## Oceanic initial condition
   - Oceanic initial condition will be the state of rest with T and S interpolated from SODA reanalysis product.
-  - An example for North Pacific domain is:
+  - An example for North Pacific domain is: [create_ocean_init.ipynb](https://github.com/takaito1/MITgcm_regional_setup/blob/main/create_ocean_init.ipynb)
   - The result is in a set of binary files (.bin)
+
+![alt text](https://github.com/takaito1/MITgcm_regional_setup/blob/main/initcond.png?raw=true)
     
 ## Modify the source code and build executable
 
