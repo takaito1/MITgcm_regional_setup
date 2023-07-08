@@ -1,0 +1,118 @@
+# *********************
+# External Forcing Data
+# *********************
+ &EXF_NML_01
+ useExfCheckRange   = .FALSE.,
+ exf_iprec         = 32,
+ exf_yftype        = 'RL',
+ repeatperiod=31536000.,
+# exf_verbose=.TRUE.,
+ exf_verbose=.FALSE.,
+ useAtmWind=.TRUE.,
+# useExfYearlyFields = .TRUE.,
+#
+ &
+ &EXF_NML_02
+ uwindstartdate1   =19900501,
+ uwindstartdate2   =000000,
+ uwindperiod       =10800.,
+#
+ vwindstartdate1   =19900501,
+ vwindstartdate2   =000000,
+ vwindperiod       =10800.,
+#
+ swdownstartdate1   =19900501,
+ swdownstartdate2   =013000,
+ swdownperiod       =10800.,
+#
+ lwdownstartdate1   =19900501,
+ lwdownstartdate2   =013000,
+ lwdownperiod       =10800.,
+#
+ precipstartdate1   =19900501,
+ precipstartdate2   =013000,
+ precipperiod       =10800.,
+#
+# snowprecipstartdate1   =19900501,
+# snowprecipstartdate2   =013000,
+# snowprecipperiod       =10800.,
+#
+ atempstartdate1   =19900501,
+ atempstartdate2   =000000,
+ atempperiod       =10800.,
+#
+ aqhstartdate1   =19900501,
+ aqhstartdate2   =000000,
+ aqhperiod       =10800.,
+#
+ runoffstartdate1   =19900501,
+ runoffstartdate2   =000000,
+ runoffperiod       =86400.,
+#
+ swdownstartdate1  = 19900501,
+ swdownstartdate2  = 013000,
+ swdownperiod      = 10800.,
+#
+ lwdownstartdate1   =19900501,
+ lwdownstartdate2   =013000,
+ lwdownperiod       =10800.,
+#
+ precipstartdate1   =19900501,
+ precipstartdate2   =013000,
+ precipperiod       =10800.,
+#
+# snowprecipstartdate1   =19900501,
+# snowprecipstartdate2   =013000,
+# snowprecipperiod       =10800.,
+#
+ atempstartdate1   =19900501,
+ atempstartdate2   =000000,
+ atempperiod       =10800.,
+#
+ aqhstartdate1   =19900501,
+ aqhstartdate2   =000000,
+ aqhperiod       =10800.,
+#
+ runoffstartdate1   =19900501,
+ runoffstartdate2   =000000,
+ runoffperiod       =86400.,
+#
+ swdownstartdate1  = 19900501,
+ swdownstartdate2  = 013000,
+ swdownperiod      = 10800.,
+#
+ lwdownstartdate1  = 19900501,
+ lwdownstartdate2  = 013000,
+ lwdownperiod      = 10800.0,
+#
+ uwindfile       = 'uas-NorthPacific-JRA55do-RYF-3hr0000.bin',
+ vwindfile       = 'vas-NorthPacific-JRA55do-RYF-3hr0000.bin',
+ swdownfile      = 'rsds-NorthPacific-JRA55do-RYF-3hr0130.bin'
+ lwdownfile      = 'rlds-NorthPacific-JRA55do-RYF-3hr0130.bin',
+ atempfile       = 'tas-NorthPacific-JRA55do-RYF-3hr0000.bin',
+ aqhfile         = 'huss-NorthPacific-JRA55do-RYF-3hr0000.bin',
+ apressurefile   = 'psl-NorthPacific-JRA55do-RYF-3hr0000.bin',
+ runofffile      = 'friver-NorthPacific-JRA55do-RYF-daily0000.bin',
+# snowprecipfile = 'prsn-NorthPacific-JRA55do-RYF-3hr0130.bin',
+ precipfile      = 'prra-NorthPacific-JRA55do-RYF-3hr0130.bin',
+# exf_inscal_ustress    = -1.,
+# exf_inscal_vstress    = -1.,
+# exf_inscal_runoff     = 3.170979198E-8,
+ &
+ &EXF_NML_03
+ &
+ &EXF_NML_OBCS
+ obcsNstartdate1=19900515,
+ obcsNstartdate2=000000,
+ obcsNperiod=2628000.,
+ obcsSstartdate1=19900515,
+ obcsSstartdate2=000000,
+ obcsSperiod=2628000.,
+ obcsEstartdate1=19900515,
+ obcsEstartdate2=000000,
+ obcsEperiod=2628000.,
+ obcsWstartdate1=19900515,
+ obcsWstartdate2=000000,
+ obcsWperiod=2628000.,
+ &
+

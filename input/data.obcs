@@ -1,0 +1,49 @@
+# ***************
+# Open boundaries
+# ***************
+ &OBCS_PARM01
+ OB_Jsouth=  60*1,
+ OB_Iwest =  40*1,
+ OB_Jnorth = 60*40,
+ OB_Ieast =  40*60,
+ OBCSfixtopo=.TRUE.,
+ useOBCSprescribe=.TRUE.,
+ useOBCSbalance=.TRUE.,
+ useOBCSsponge=.TRUE.,
+ OBCS_balanceFacE= 1.,
+ OBCS_balanceFacW= 1.,
+ OBCS_balanceFacN= 0.,
+ OBCS_balanceFacS= 1.,
+#
+ OBNetaFile='SODA3122_ssh_north_1990_1991.bin',
+ OBNuFile='SODA3122_u_north_1990_1991.bin',
+ OBNvFile='SODA3122_v_north_1990_1991.bin',
+ OBNtFile='SODA3122_temp_north_1990_1991.bin',
+ OBNsFile='SODA3122_salt_north_1990_1991.bin',
+#
+ OBEetaFile='SODA3122_ssh_east_1990_1991.bin',
+ OBEuFile='SODA3122_u_east_1990_1991.bin',
+ OBEvFile='SODA3122_v_east_1990_1991.bin',
+ OBEtFile='SODA3122_temp_east_1990_1991.bin',
+ OBEsFile='SODA3122_salt_east_1990_1991.bin',
+#
+ OBSetaFile='SODA3122_ssh_south_1990_1991.bin',
+ OBSuFile='SODA3122_u_south_1990_1991.bin',
+ OBSvFile='SODA3122_v_south_1990_1991.bin',
+ OBStFile='SODA3122_temp_south_1990_1991.bin',
+ OBSsFile='SODA3122_salt_south_1990_1991.bin',
+#
+ OBWetaFile='SODA3122_ssh_west_1990_1991.bin',
+ OBWuFile='SODA3122_u_west_1990_1991.bin',
+ OBWvFile='SODA3122_v_west_1990_1991.bin',
+ OBWtFile='SODA3122_temp_west_1990_1991.bin',
+ OBWsFile='SODA3122_salt_west_1990_1991.bin',
+ &
+ &OBCS_PARM03
+ Urelaxobcsinner=2628000.,
+ Urelaxobcsbound=86400.,
+ Vrelaxobcsinner=2628000.,
+ Vrelaxobcsbound=86400.,
+ spongeThickness=5,
+ &
+
