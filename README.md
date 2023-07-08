@@ -29,7 +29,10 @@
   - The result is in a set of binary files (.bin)
     
 ## Oceanic initial condition
-
+  - Oceanic initial condition will be the state of rest with T and S interpolated from SODA reanalysis product.
+  - An example for North Pacific domain is:
+  - The result is in a set of binary files (.bin)
+    
 ## Modify the source code and build executable
 
 ## Biogeochemistry
