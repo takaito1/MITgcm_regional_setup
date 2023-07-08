@@ -23,6 +23,8 @@
   - An example for North Pacific domain is: [create_atmos_forcing.ipynb](https://github.com/takaito1/MITgcm_regional_setup/blob/main/create_atmos_forcing.ipynb)
   - The result is in a set of binary files (.bin)
 
+![alt text](https://github.com/takaito1/MITgcm_regional_setup/blob/main/atmos_forcing.png?raw=true)
+
 ## Oceanic side boundary condition
   - Similar to the atmospheric forcing, there are several oceanic reanalysis products. In this example, I will use SODA version 3.12.2 [Carton et al., 2018](https://www2.atmos.umd.edu/~ocean/)
   - The files I used in this example are available [here](https://www.dropbox.com/s/o4xco4k1ddpichs/soda3.12.2-1990-1991.nc.tar.gz?dl=0)
