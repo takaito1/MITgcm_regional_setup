@@ -12,6 +12,7 @@
   - An example for North Pacific domain for lon-lat grid at 2 degree resolution: [create_bathymetry.ipynb](https://github.com/takaito1/MITgcm_regional_setup/blob/main/create_bathymetry.ipynb)
   - The result is in a binary file (.bin)
   - In this example, the domain is (lon,lat,depth) = (60,40,42), small enough to run on a single CPU on desktop/laptop
+![alt text](https://github.com/takaito1/MITgcm_regional_setup/blob/main/bathymetry.png?raw=true)
     
 ## Atmospheric forcing for bulk formula
   - Several atmospheric reanalysis products are available. In this example, I will use JRA55do [(Tsujino et al., 2018)](https://climate.mri-jma.go.jp/pub/ocean/JRA55-do/)
