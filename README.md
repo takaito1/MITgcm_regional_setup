@@ -40,6 +40,9 @@
 ![alt text](https://github.com/takaito1/MITgcm_regional_setup/blob/main/initcond.png?raw=true)
     
 ## Modify the source code and build executable
+  - code/ contains customization to source code for North Pacific domain
+  - input/ contains runtime options for North Pacific domain
+  - Tested with the latest version of MITgcm (downloaded in June 2023)
 
 ## Biogeochemistry
 
