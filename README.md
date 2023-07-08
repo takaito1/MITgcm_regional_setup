@@ -16,14 +16,14 @@
 ## Atmospheric forcing for bulk formula
   - Several atmospheric reanalysis products are available. In this example, I will use JRA55do [(Tsujino et al., 2018)](https://climate.mri-jma.go.jp/pub/ocean/JRA55-do/)
   - [Stewart et al (2020)](https://www.sciencedirect.com/science/article/pii/S1463500319302768) suggests RYF (repeat year forcing) based on May-1-1990 - Apr-30-1991
-  - The files I used in this example are available [here](https://gtvault-my.sharepoint.com/:u:/g/personal/takamitsu3_gatech_edu/EZvBdaNaDOFGghnRzzS5WroBzTPc8vGf4-YHLHsbhgjMQw?e=JgZxS9). These files are available from ESGF following the link above
+  - The files I used in this example are available [here](https://www.dropbox.com/s/ezqbpab0r1z7vey/jra55do-1990-1991.nc.tar.gz?dl=0). These files are available from ESGF following the link above
   - It contains 10m wind (u, v), 2m air temperature, specific humidity, downward short/long wave radiation, rain precipitation, snow precipitation, river runoff, ice sheet calving, and mean sea level pressure (total of 11 fields). Most of them are 3 hourly field.
   - An example for North Pacific domain is: [create_atmos_forcing.ipynb](https://github.com/takaito1/MITgcm_regional_setup/blob/main/create_atmos_forcing.ipynb)
   - The result is in a set of binary files (.bin)
 
 ## Oceanic side boundary condition
   - Similar to the atmospheric forcing, there are several oceanic reanalysis products. In this example, I will use SODA version 3.12.2 [Carton et al., 2018](https://www2.atmos.umd.edu/~ocean/)
-  - The files I used in this example are available [here]()
+  - The files I used in this example are available [here](https://www.dropbox.com/s/o4xco4k1ddpichs/soda3.12.2-1990-1991.nc.tar.gz?dl=0)
   - It contains U, V, T, S and SSH
   - An example for North Pacific domain is: [create_ocean_bc.ipynb](https://github.com/takaito1/MITgcm_regional_setup/blob/main/create_ocean_bc.ipynb)
   - The result is in a set of binary files (.bin)
