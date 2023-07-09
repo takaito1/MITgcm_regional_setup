@@ -11,7 +11,7 @@
   - Original data is documented [here](https://sos.noaa.gov/catalog/datasets/etopo2-topography-and-bathymetry-natural-colors/#description-data-source)
   - An example for North Pacific domain for lon-lat grid at 2 degree resolution: [create_bathymetry.ipynb](https://github.com/takaito1/MITgcm_regional_setup/blob/main/create_bathymetry.ipynb)
   - The result is in a binary file (.bin)
-  - In this example, the domain is (lon,lat,depth) = (60,40,42), small enough to run on a single CPU on desktop/laptop
+  - In this example, the number of grid cells in (lon,lat,depth) are (60,40,42), small enough to run on a single CPU on desktop/laptop
 
 ![alt text](https://github.com/takaito1/MITgcm_regional_setup/blob/main/bathymetry.png?raw=true)
     
