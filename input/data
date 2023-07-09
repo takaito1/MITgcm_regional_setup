@@ -17,7 +17,7 @@
  implicitDiffusion=.TRUE.,
 # allowFreezing=.TRUE.,
  exactConserv=.TRUE.,
- select_rStar=2,
+ select_rStar=0,
  nonlinFreeSurf=4,
  hFacInf=0.2,
  hFacSup=2.0,
@@ -26,6 +26,7 @@
  tempAdvScheme       = 30,
  saltAdvScheme       = 30, 
  useRealFreshWaterFlux=.TRUE.,
+ staggerTimeStep=.TRUE.,
  quasiHydrostatic=.TRUE.,
  useNHMTerms=.TRUE.,
 # turn on looped cells
