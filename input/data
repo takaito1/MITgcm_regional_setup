@@ -7,7 +7,7 @@
  tRef = 42*20.,
  sRef = 42*35.,
  viscAr=1.E-3,
- viscAh=1.E5,
+ viscAh=1.E4,
  diffKrT=1.E-5,
  diffKrS=1.E-5,
  rhoConst=1035.,
@@ -56,8 +56,8 @@
  deltaTfreesurf= 3600.,
  abEps = 0.1,
  pChkPtFreq= 31536000.,
- dumpFreq=   315360000000.,
- monitorFreq=31536000.,
+ ChkPtFreq= 31536000.,
+ monitorFreq=86400.,
  periodicExternalForcing=.TRUE.,
  externForcingPeriod=2628000.,
  externForcingCycle=31536000.,
@@ -75,9 +75,9 @@
 	284.0,262.0,250.0,250.0,250.0,250.0,250.0,250.0,
 	250.0,250.0,250.0,250.0,250.0,250.0,250.0, 
  xgOrigin=130.
- ygOrigin=-17.,
+ ygOrigin=4.2692,
  dySpacing=2.,
- dxSpacing=2.,
+ dxSpacing=1.4615,
  &
 
 # Input datasets

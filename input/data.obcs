@@ -6,10 +6,11 @@
  OB_Iwest =  40*1,
  OB_Jnorth = 60*40,
  OB_Ieast =  40*60,
+#
  OBCSfixtopo=.TRUE.,
  useOBCSprescribe=.TRUE.,
  useOBCSbalance=.TRUE.,
- useOBCSsponge=.TRUE.,
+# useOBCSsponge=.TRUE.,
  OBCS_balanceFacE= 1.,
  OBCS_balanceFacW= 1.,
  OBCS_balanceFacN= 0.,
@@ -40,10 +41,10 @@
  OBWsFile='SODA3122_salt_west_1990_1991.bin',
  &
  &OBCS_PARM03
- Urelaxobcsinner=2628000.,
- Urelaxobcsbound=86400.,
- Vrelaxobcsinner=2628000.,
- Vrelaxobcsbound=86400.,
- spongeThickness=5,
+# Urelaxobcsinner=2628000.,
+# Urelaxobcsbound=86400.,
+# Vrelaxobcsinner=2628000.,
+# Vrelaxobcsbound=86400.,
+# spongeThickness=2,
  &
 

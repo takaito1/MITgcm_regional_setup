@@ -33,9 +33,9 @@
  precipstartdate2   =013000,
  precipperiod       =10800.,
 #
-# snowprecipstartdate1   =19900501,
-# snowprecipstartdate2   =013000,
-# snowprecipperiod       =10800.,
+ snowprecipstartdate1   =19900501,
+ snowprecipstartdate2   =013000,
+ snowprecipperiod       =10800.,
 #
  atempstartdate1   =19900501,
  atempstartdate2   =000000,
@@ -61,9 +61,9 @@
  precipstartdate2   =013000,
  precipperiod       =10800.,
 #
-# snowprecipstartdate1   =19900501,
-# snowprecipstartdate2   =013000,
-# snowprecipperiod       =10800.,
+ snowprecipstartdate1   =19900501,
+ snowprecipstartdate2   =013000,
+ snowprecipperiod       =10800.,
 #
  atempstartdate1   =19900501,
  atempstartdate2   =000000,
@@ -93,7 +93,7 @@
  aqhfile         = 'huss-NorthPacific-JRA55do-RYF-3hr0000.bin',
  apressurefile   = 'psl-NorthPacific-JRA55do-RYF-3hr0000.bin',
  runofffile      = 'friver-NorthPacific-JRA55do-RYF-daily0000.bin',
-# snowprecipfile = 'prsn-NorthPacific-JRA55do-RYF-3hr0130.bin',
+ snowprecipfile  = 'prsn-NorthPacific-JRA55do-RYF-3hr0130.bin',
  precipfile      = 'prra-NorthPacific-JRA55do-RYF-3hr0130.bin',
 # exf_inscal_ustress    = -1.,
 # exf_inscal_vstress    = -1.,
@@ -102,9 +102,9 @@
  &EXF_NML_03
  &
  &EXF_NML_OBCS
- obcsNstartdate1=19900515,
- obcsNstartdate2=000000,
- obcsNperiod=2628000.,
+# obcsNstartdate1=19900515,
+# obcsNstartdate2=000000,
+# obcsNperiod=2628000.,
  obcsSstartdate1=19900515,
  obcsSstartdate2=000000,
  obcsSperiod=2628000.,
