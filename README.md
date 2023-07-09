@@ -42,6 +42,8 @@
 ## Modify the source code and build executable
   - code/ contains customization to source code for North Pacific domain
   - input/ contains runtime options for North Pacific domain
+  - This customization has notable differences from thg global_ocean varification case. It has open boundary condition (obcs), KPP mixing scheme (kpp), external forcing (exf), and dynamic seaice model (seaice).
+  - These modules are activated via packages.conf file in code/ and are again activated at runtime via data.pkg
   - Tested with the latest version of MITgcm (downloaded in June 2023)
   - To generate the model run, first build the executable following chapter 3 of MITgcm manual, then place the executable file 'mitgcmuv' in the 'input' folder together with all the .bin file generated in the previous steps. Then it is ready to execute by 'mpiexec' command (for a single CPU case, just type ./mitgcmuv)
 
