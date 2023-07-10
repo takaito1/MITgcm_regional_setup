@@ -48,7 +48,11 @@
   - To generate the model run, first build the executable following chapter 3 of MITgcm manual, then place the executable file 'mitgcmuv' in the 'input' folder together with all the .bin file generated in the previous steps. Then it is ready to execute by 'mpiexec' command (for a single CPU case, just type ./mitgcmuv)
 
 ## Biogeochemistry
-  - Coming soon
+  - In this example, BLING model of Dunne et al., (2020, JAMES) is used for the biogeochemical module. [Paper](https://agupubs.onlinelibrary.wiley.com/doi/full/10.1029/2019MS002008)
+  - This is a 8 tracer version (DIC, Alk, O2, NO3, PO4, Fe, DON and DOP)
+  - Oceanic bc and init cond needs to be prepared for each of the 8 tracers
+  - For DIC, Alk, O2, NO3, PO4, we will use GLODAPv2 [GLODAPv2](https://glodap.info/)
+  - For Fe, we use the gridded data of Huang et al., (2022) [Zenodo](https://zenodo.org/record/6994318)
 
 ## Hindcast simulation, 1991 - 2022
   - Coming soon
