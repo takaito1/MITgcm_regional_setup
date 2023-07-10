@@ -42,6 +42,7 @@
 ## Modify the source code and build executable
   - code/ contains customization to source code for North Pacific domain
   - input/ contains runtime options for North Pacific domain
+  - As a reference, all of the binary input files are provided [here](https://www.dropbox.com/s/51s5qrub04ohk6c/binary_inputs.tar.gz?dl=0). These files should be located within the input/
   - This customization has notable differences from thg global_ocean varification case. It has open boundary condition (obcs), KPP mixing scheme (kpp), external forcing (exf), and dynamic seaice model (seaice).
   - These modules are activated via packages.conf file in code/ and are again activated at runtime via data.pkg
   - Tested with the latest version of MITgcm (downloaded in June 2023)
