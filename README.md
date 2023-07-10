@@ -53,7 +53,7 @@
   - input_bling/ contains runtime options
   - In this example, BLING model of Dunne et al., (2020, JAMES) is used for the biogeochemical module. [Paper](https://agupubs.onlinelibrary.wiley.com/doi/full/10.1029/2019MS002008)
   - This is a 8 tracer version (DIC, Alk, O2, NO3, PO4, Fe, DON and DOP)
-  - Oceanic bc and init cond needs to be prepared for each of the 8 tracers
+  - Oceanic bc and init cond needs to be prepared for each of the 8 tracers; [create_bgc_init.ipynb](https://github.com/takaito1/MITgcm_regional_setup/blob/main/create_bgc_init.ipynb) and [create_bgc_openbc.ipynb](https://github.com/takaito1/MITgcm_regional_setup/blob/main/create_bgc_openbc.ipynb)
   - For DIC, Alk, O2, NO3, PO4, we will use GLODAPv2 [GLODAPv2](https://glodap.info/)
   - For Fe, we use the gridded data of Huang et al., (2022) [Zenodo](https://zenodo.org/record/6994318)
   - For atmospheric deposition of Fe, the modeled deposition field of [Johnson and Meskhidze (2013)](https://gmd.copernicus.org/articles/6/1137/2013/) is applied. 
