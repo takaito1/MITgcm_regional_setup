@@ -56,6 +56,7 @@
   - Oceanic bc and init cond needs to be prepared for each of the 8 tracers
   - For DIC, Alk, O2, NO3, PO4, we will use GLODAPv2 [GLODAPv2](https://glodap.info/)
   - For Fe, we use the gridded data of Huang et al., (2022) [Zenodo](https://zenodo.org/record/6994318)
+  - For atmospheric deposition of Fe, the modeled deposition field of [Johnson and Meskhidze (2013)](https://gmd.copernicus.org/articles/6/1137/2013/) is applied. 
 
 ## Hindcast simulation, 1991 - 2022
   - Coming soon
