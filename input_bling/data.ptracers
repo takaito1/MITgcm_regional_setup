@@ -1,0 +1,60 @@
+ &PTRACERS_PARM01
+ PTRACERS_numInUse=9,
+ PTRACERS_useGMRedi=9*.TRUE.,
+ PTRACERS_useKPP=9*.TRUE.,
+# tracer 1 - dic
+ PTRACERS_names(1)='dic',
+ PTRACERS_long_names(1)='Dissolved Inorganic Carbon',
+ PTRACERS_units(1)='mol C/m^3',
+ PTRACERS_advScheme(1)=30,
+ PTRACERS_initialFile(1)='dic_ini.bin',
+# tracer 2 - alk
+ PTRACERS_names(2)='alk',
+ PTRACERS_long_names(2)='Alkalinity',
+ PTRACERS_units(2)='mol eq/m^3',
+ PTRACERS_advScheme(2)=30,
+ PTRACERS_initialFile(2)='alk_ini.bin',
+# tracer 3 - o2
+ PTRACERS_names(3)='o2',
+ PTRACERS_long_names(3)='Dissolved Oxygen',
+ PTRACERS_units(3)='mol O/m^3',
+ PTRACERS_advScheme(3)=30,
+ PTRACERS_initialFile(3)='o2_ini.bin',
+## tracer 4 - no3
+ PTRACERS_names(4)='no3',
+ PTRACERS_long_names(4)='Nitrate',
+ PTRACERS_units(4)='mol N/m^3',
+ PTRACERS_advScheme(4)=30,
+ PTRACERS_initialFile(4)='no3_ini.bin',
+# tracer 5 - po4
+ PTRACERS_names(5)='po4',
+ PTRACERS_long_names(5)='Phosphate',
+ PTRACERS_units(5)='mol P/m^3',
+ PTRACERS_advScheme(5)=30,
+ PTRACERS_initialFile(5)='po4_ini.bin',
+# tracer 6 - fet
+ PTRACERS_names(6)='fet',
+ PTRACERS_long_names(6)='Dissolved Inorganic Iron',
+ PTRACERS_units(6)='mol Fe/m^3',
+ PTRACERS_advScheme(6)=30,
+ PTRACERS_initialFile(6)='fe_ini.bin',
+# tracer 7 - don
+ PTRACERS_names(7)='don',
+ PTRACERS_long_names(7)='Dissolved Organic Nitrogen',
+ PTRACERS_units(7)='mol N/m^3',
+ PTRACERS_advScheme(7)=30,
+ PTRACERS_initialFile(7)='',
+# tracer 8 - dop
+ PTRACERS_names(8)='dop',
+ PTRACERS_long_names(8)='Dissolved Organic Phosphorus',
+ PTRACERS_units(8)='mol P/m^3',
+ PTRACERS_advScheme(8)=30,
+ PTRACERS_initialFile(8)='',
+# tracer 9 - silica
+ PTRACERS_names(9)='si',
+ PTRACERS_long_names(9)='Silicate',
+ PTRACERS_units(9)='mol Si/m^3',
+ PTRACERS_advScheme(9)=30,
+ PTRACERS_initialFile(9)='si_ini.bin',
+ &
+

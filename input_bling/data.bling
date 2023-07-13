@@ -1,0 +1,12 @@
+# BLING parameters 
+ &ABIOTIC_PARMS
+ &
+
+ &BIOTIC_PARMS
+ alpfe=1.0,
+ &
+
+ &BLING_FORCING
+ BLING_ironFile='solFe_dep_JM2013.bin',
+ &
+
